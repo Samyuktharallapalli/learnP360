@@ -48,7 +48,7 @@ else:
 	
 	
 	
-j=range(10,50)
+j=list(range(10,50))
 l=int(input("type a num")	
 (l in j)
 if True:
