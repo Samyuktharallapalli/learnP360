@@ -1,62 +1,61 @@
+#question1
 print('Hello, my name is "rishabh". I love coding')
 print(" This is my 'first program'")
 
-x= int(input())
-y=int(input())
-z=int(input())
-#not sure if it is correct
-print (x, y, z)
+#question2
+x = int(input())
+y = int(input())
+z = int(input())
+
+print(x, y, z)
 
 type(x)
 
-
+#question3
 print("hello! my name is XYX")
 print('"Hello I am a candidate"')
 print('"234.56"')
 print('"34"')
 print("a+3j")
 
-
-x= 10+20*(45+67.0)
-print (x)
-type(x)
-
-x=(True and False) or False# doesnt take the AND or OR
+#question4
+x = 10 + 20 * (45 + 67.0)
 print(x)
 type(x)
 
-x=(TRUE and TRUE) and (not False and True)
+x = (True and False) or False 
 print(x)
 type(x)
 
-x=(3>89) or (34>32)
+x = (True and True) and (not False and True)
 print(x)
 type(x)
 
-x=not True and False
+x = (3 > 89) or (34 > 32)
 print(x)
 type(x)
 
-a=int(input("write a num"))
-(a%2==0 and a%5==0)
-if True:
-    print('"Hurryay it is what i am looking for"')	
-	
+x = not True and False
+print(x)
+type(x)
+
+#Question5
+a = int(input("write a num"))
+if (a % 2 == 0 and a % 5 == 0):
+    print('"Hurryay it is what i am looking for"')
+
 else:
+     print('"wrong input"')
+     
+#question6
+j=list(range(10,50))
+l=int(input("type a num"))
 
-    print('"wrong input"')	
-	
-	
-	
-j=range(10,50)
-l=int(input("type a num")	
-(l in j)
-if True:
+if l in j:
     print('"Yes i am in range"')
 else:
 	print ('"Oops"')
-	
-	
+
 
 
 
